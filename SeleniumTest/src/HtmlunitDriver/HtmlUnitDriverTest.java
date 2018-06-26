@@ -22,6 +22,7 @@ public class HtmlUnitDriverTest {
 		
 		WebClient client = (WebClient) get(driver,"webClient");
 		System.out.println("Browser Version is: " + client.getBrowserVersion());
+		System.out.println("Browser Version: "+client.getBrowserVersion());
 		System.out.println("Is Browser Chrome: "+client.getBrowserVersion().isChrome());
 		System.out.println("Is Browser Firefox: "+client.getBrowserVersion().isFirefox());
 		driver.quit();
